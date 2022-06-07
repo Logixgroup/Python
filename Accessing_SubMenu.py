@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-driver=webdriver.Chrome(executable_path="C:\\Users\\kalika.chhabra\\Desktop\\chromedriver\\chromedriver.exe")
+driver=webdriver.Chrome(executable_path="C:\\Users\\Arvind.Kumar\\Desktop\\chromedriver\\chromedriver.exe")
 driver.get("https://www.keysight.com/in/en/home.html")
 product_services=driver.find_element(by=By.XPATH,value="//div[@id='gnavbar']/div/ul/li[1]/a[@href='/in/en/products.html']")
 product_list=driver.find_element(by=By.XPATH,value="/html//div[@id='gnavbar']/div/ul/li[1]/div/div/ul")
